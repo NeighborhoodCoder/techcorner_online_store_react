@@ -1,0 +1,39 @@
+.item {
+    border: .5px solid #d6d6d6;
+    /* border-radius: 5px; */
+    margin: 5px;
+    width: 300px;
+    padding: 5px;
+    text-align: left;
+    background-color: white;
+}
+.item img{
+    width: 291px;
+    height: 218px;
+}
+.item:hover {
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.75);
+}
+.item h5{
+    height: 38px;
+    font-size: 1rem;
+    overflow-y: hidden;
+}
+.item .price{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.item hr{
+    margin: 4px 0;
+}
+.item .shipping{
+    font-size: .8rem;
+}
+.item .total{
+    opacity: .8;
+}
+.item .item-buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -1,0 +1,16 @@
+.admin{
+    height: calc(100vh - 112px);
+}
+
+.admin .form-item{
+    margin: 10px 0;
+}
+
+.admin label{
+    width: 100px;
+}
+
+.admin .form{
+    width: 60%;
+    margin: 0 auto;
+}

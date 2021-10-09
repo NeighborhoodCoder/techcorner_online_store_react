@@ -1,0 +1,17 @@
+.catalog{
+    min-height: calc(100vh - 112px);
+}
+.catalog .item-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width:425px){
+    .catalog {
+        height: calc(100vh - 112px);
+        overflow-y: scroll;
+    }
+    .catalog .item-box{
+    }
+}

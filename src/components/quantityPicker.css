@@ -1,0 +1,12 @@
+.quantity-picker button{
+    text-align: center;
+}
+.quantity-picker .btn-more{
+    border-radius: 0 50% 50% 0;
+}
+.quantity-picker .btn-less{
+    border-radius: 50% 0 0 50%;
+}
+.quantity-picker label{
+    margin: 0 5px;
+}
